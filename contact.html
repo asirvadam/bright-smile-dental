@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact | Bright Smile Dental Clinic</title>
+<meta name="description" content="Address, phone, WhatsApp, opening hours and appointment enquiry for Bright Smile Dental Clinic.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-page="contact.html" data-base="">
+<div id="site-header"></div>
+<main id="main">
+<section class="page-hero"><p class="eyebrow">BRIGHT SMILE DENTAL CLINIC</p><h1>Contact us</h1><p class="lead">Call, message or visit.</p></section><section class="prose"><p><strong>Address:</strong> <span data-c="address"></span>, <span data-c="city"></span>, <span data-c="state"></span></p><p><strong>Phone:</strong> <a data-link="tel" href="#" data-c="phoneDisplay"></a></p><p><a data-link="mail" href="#">Email us</a></p><h2>Opening hours</h2><table class="hours"><tbody data-render="hours"></tbody></table><a class="button" data-link="map" href="#">Get directions</a><div class="map-wrap" data-render="map"></div></section><section class="appointment-section" id="appointment"><div class="appointment-copy"><p class="eyebrow">APPOINTMENT ENQUIRY</p><h2>Request an appointment</h2><p>Tell us when you would like to visit. The clinic will contact you to confirm. Your appointment is not confirmed until the clinic replies.</p><div class="contact-lines"><p>☎ <a data-link="tel" href="#" data-c="phoneDisplay"></a></p><p><a data-link="mail" href="#">Email the clinic</a></p></div></div>
+<form class="appointment-form" id="appointmentForm" novalidate><label for="name">Your name</label><input id="name" name="name" autocomplete="name" required><label for="phone">Mobile number</label><input id="phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" required placeholder="10-digit number"><label for="treatment">What would you like help with?</label><select id="treatment" name="treatment"></select><label for="date">Preferred date (optional)</label><input id="date" name="date" type="date">
+<button class="button form-button" type="submit">Send enquiry</button><small class="form-note" id="formMode"></small><small class="form-note">Please do not include medical details in this form.</small><p id="formMessage" class="form-message" role="status" aria-live="polite"></p></form></section>
+</main>
+<div id="site-footer"></div>
+<script src="clinic-config.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

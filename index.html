@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bright Smile Dental Clinic | Bright Smile Dental Clinic</title>
+<meta name="description" content="Patient-focused dental care in Vijayawada. Request an appointment by phone, WhatsApp or online enquiry.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-page="index.html" data-base="">
+<div id="site-header"></div>
+<main id="main">
+<section class="hero"><div class="hero-copy"><p class="eyebrow" data-c="tagline"></p><h1>A healthier smile starts with a <span>friendly visit.</span></h1><p class="lead">Thoughtful dental care in <span data-c="city"></span>, with clear explanations and treatment plans discussed with you.</p><div class="btn-row"><a class="button" href="contact.html#appointment">Book an appointment</a><a class="button button-outline" data-link="tel" href="#">Call now</a><a class="button button-outline" data-link="wa" href="#">WhatsApp</a></div></div><div class="hero-art"><div class="photo-box" data-photo="hero" data-alt="Inside the clinic" data-eager="1"><span>Add clinic photo (assets/)</span></div></div></section>
+<section class="section services"><div class="section-heading"><div><p class="eyebrow">TREATMENTS</p><h2>Care for every kind of smile</h2></div><p>Treatments offered by the clinic.</p></div><div class="service-grid" data-render="treatments" data-limit="6"></div><p><a class="text-link" href="services.html">See all treatments →</a></p></section>
+<section class="section team" id="team"><div class="doctor-card" data-render="dentist"></div></section>
+<section class="about-section"><div><p class="eyebrow">VISIT US</p><h2>Find the clinic</h2><p><span data-c="address"></span>, <span data-c="city"></span>, <span data-c="state"></span></p><table class="hours"><tbody data-render="hours"></tbody></table><a class="button" data-link="map" href="#">Get directions</a></div><div class="map-wrap" data-render="map"></div></section>
+<section class="section faq"><p class="eyebrow">COMMON QUESTIONS</p><h2>Before your visit</h2><div data-render="faq" data-limit="3"></div><p><a class="text-link" href="faq.html">More questions →</a></p></section>
+<section class="appointment-section" id="appointment"><div class="appointment-copy"><p class="eyebrow">APPOINTMENT ENQUIRY</p><h2>Request an appointment</h2><p>Tell us when you would like to visit. The clinic will contact you to confirm. Your appointment is not confirmed until the clinic replies.</p><div class="contact-lines"><p>☎ <a data-link="tel" href="#" data-c="phoneDisplay"></a></p><p><a data-link="mail" href="#">Email the clinic</a></p></div></div>
+<form class="appointment-form" id="appointmentForm" novalidate><label for="name">Your name</label><input id="name" name="name" autocomplete="name" required><label for="phone">Mobile number</label><input id="phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" required placeholder="10-digit number"><label for="treatment">What would you like help with?</label><select id="treatment" name="treatment"></select><label for="date">Preferred date (optional)</label><input id="date" name="date" type="date">
+<button class="button form-button" type="submit">Send enquiry</button><small class="form-note" id="formMode"></small><small class="form-note">Please do not include medical details in this form.</small><p id="formMessage" class="form-message" role="status" aria-live="polite"></p></form></section>
+</main>
+<div id="site-footer"></div>
+<script src="clinic-config.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
