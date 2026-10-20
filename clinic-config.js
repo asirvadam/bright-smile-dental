@@ -6,7 +6,7 @@ window.CLINIC = {
   "colors": { "primary": "#167d78", "dark": "#0f5c59" },
   "phoneDisplay": "+91 9347237907",
   "phoneTel": "+91 9347237907",
-  "whatsapp": "91 9347237907",
+  "whatsapp": "919347237907",
   "email": "",
   "address": "[Clinic street address]",
   "city": "Vijayawada",
